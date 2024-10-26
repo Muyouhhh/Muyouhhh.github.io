@@ -1,19 +1,48 @@
-#center,h1, p{
+/* 通用样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url('background.jpg'); /* 背景 */
+}
+
+h1, p, #center {
   text-align: center;
 }
-#center a{
+
+h1 a {
+  color: blue; /* 链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+#center a {
   display: block;
+  margin: 10px 0; /* 为链接添加一些间距 */
 }
-body {
-background-image: url('dd.jpg'); /* 背景图片 */
-}
+
+/* GIF 设置 */
 .gif {
   position: absolute;
   left: 75%;
   top: 25%;
   transform: translateY(-50%);
 }
-audio {
-  display: block;
-  margin: 0 auto;
+
+.gif img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+
+/* 播放器容器 */
+.music-player-container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
+  margin-top: 20px;        /* 与上方内容保持一定间距 */
+}
+
+.music-player {
+  border: none;
+  width: 330px;
+  height: 86px;
 }
