@@ -1,0 +1,19 @@
+#center,h1, p{
+  text-align: center;
+}
+#center a{
+  display: block;
+}
+body {
+background-image: url('dd.jpg'); /* 背景图片 */
+}
+.gif {
+  position: absolute;
+  left: 75%;
+  top: 25%;
+  transform: translateY(-50%);
+}
+audio {
+  display: block;
+  margin: 0 auto;
+}
