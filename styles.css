@@ -20,15 +20,75 @@ h1 a {
   margin: 10px 0; /* 为链接添加一些间距 */
 }
 
-/* GIF 设置 */
-.gif {
+/* 贤者火锅 GIF 设置 */
+.sage_gif {
   position: absolute;
   left: 75%;
   top: 25%;
   transform: translateY(-50%);
 }
 
-.gif img {
+.sage_gif img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+/* 壹决走路 GIF 设置 */
+.iso_gif {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.iso_gif img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+/* 保安跳舞 GIF 设置 */
+.cypher_gif {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+  transform: translateY(-50%);
+}
+
+.cypher_gif img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+/* 贤者点赞 PNG 设置 */
+.sage_png {
+  position: absolute;
+  left: 15%;
+  top: 75%;
+  transform: translateY(-50%);
+}
+
+.sage_png img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+/* 捷风比心 PNG 设置 */
+.jett_png {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jett_png img {
+  width: 50%;  /* GIF 大小 */
+  height: 50%;
+}
+/* 奇乐点赞 PNG 设置 */
+.kj_png {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+.kj_png img {
   width: 50%;  /* GIF 大小 */
   height: 50%;
 }
